@@ -13,8 +13,8 @@ export default function Login() {
       <Input label="Senha" type="password" isPassword={true} placeholder="*****" />
       <Button>Entrar</Button>
       <div className="flex justify-between">
-        <Link to="/criar-conta" className="text-xs">Criar conta</Link>
-        <Link to="/esqueci-minha-conta" className="text-xs">Esqueci minha conta</Link>
+        <Link to="/login/criar-conta" className="text-xs">Criar conta</Link>
+        <Link to="/login/esqueci-minha-senha" className="text-xs">Esqueci minha senha</Link>
       </div>
     </LayoutLogin>
   );
